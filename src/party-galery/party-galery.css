@@ -1,0 +1,12 @@
+.party-galery__main-container {
+    padding-top: 10px;
+    padding-bottom: 50px;
+    background: linear-gradient(to left top, rgb(218, 165, 32), rgb(248, 222, 126));
+    text-align: center;
+}
+
+h1 {
+    color: rgb(106, 27, 139);
+    padding-bottom: 20px;
+    padding-top: 10px;
+}

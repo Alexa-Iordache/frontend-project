@@ -1,0 +1,39 @@
+.background_color {
+    height: 100%;
+    background: linear-gradient(to left top, rgb(218, 165, 32), rgb(248, 222, 126));
+    padding-bottom: 50px;
+}
+
+.promo-pack__main-title {
+    color: rgb(106, 27, 139);
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+.promo-pack__container {
+    border: solid 2px rgb(170, 50, 220, .6);
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 30px 30px;
+    border-top: 4mm ridge rgb(170, 50, 220, .6);
+}
+
+.promo-pack__container:hover
+{
+    background-color:rgb(207, 174, 221);
+}
+
+.promo-pack__title {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(106, 27, 139);
+}
+
+.promo-pack__ul {
+    list-style-type: square;
+}
+
+.promo-pack__subtitle {
+    font-weight: bold;
+}

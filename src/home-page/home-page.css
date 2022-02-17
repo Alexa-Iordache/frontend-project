@@ -1,0 +1,41 @@
+html {
+    /* background: linear-gradient(to left top, rgb(218, 165, 32), rgb(248, 222, 126)); */
+    
+    background-image: url("./images/background.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.home-page__title {
+    /* font-family: "Avant Garde", Times, serif; */
+    font-size: 75px;
+    text-align: center;
+    margin-top: 170px;
+    margin-bottom: 80px;
+    text-transform: uppercase;
+    font-family: verdana;
+    font-family: 'CoreCircus', sans-serif;
+	line-height: 1;
+	color: #146166;
+	text-shadow: 
+			-1px -1px 0 #146166, 1px -1px 0 #146166, -1px 1px 0 #146166, 1px 1px 0 #146166, 
+			1px 0px 0px #052736, 0px 1px 0px #052736, 2px 1px 0px #052736, 1px 2px 0px #052736, 3px 2px 0px #052736, 2px 3px 0px #052736, 4px 3px 0px #052736, 3px 4px 0px #052736, 5px 4px 0px #052736,
+			3px 5px 0px #146166, 6px 5px 0px #146166, 
+			-1px 2px 0 black, 0 3px 0 #146166, 1px 4px 0 #146166, 2px 5px 0px #146166,
+			2px -1px 0 #146166, 3px 0 0 #146166, 4px 1px 0 #146166, 5px 2px 0px #146166, 6px 3px 0 #146166, 7px 4px 0 #146166,
+		10px 10px 4px #dac249;
+}
+
+.ceva {
+    font-style: italic;
+}
+
+.home-page__promo-pack {
+    font-family: "Avant Garde", Times, serif;
+    font-size: 50px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
