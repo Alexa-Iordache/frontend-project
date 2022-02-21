@@ -41,7 +41,7 @@ class Halloween extends React.Component {
         return (
             <div className="halloween__main-container">
                 <Box sx={{ width: 1000, height: 900, overflowY: 'scroll', paddingLeft: 30 }}>
-                    <ImageList variant="masonry" cols={4} gap={30}>
+                    <ImageList variant="masonry" cols={4} gap={8}>
                         {itemData.map((item) => (
                             <ImageListItem key={item.img}>
                                 <img

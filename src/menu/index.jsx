@@ -13,8 +13,10 @@ class Menu extends React.Component {
                     {/* <li className="menu__li">Galerie Petreceri</li> */}
                     {/* <li className="menu__li">Petreceri tematice</li> */}
                     <li className="menu__li">Ateliere de creație</li>
-                    <li className="menu__li">Colaboratori</li>
-                    <li className="menu__li">Pentru părinți</li>
+                    <Link to="/sponsors" className="menu__li">Colaboratori</Link>
+                    {/* <li className="menu__li">Colaboratori</li> */}
+                    {/* <li className="menu__li">Pentru părinți</li> */}
+                    <Link to="/parents" className="menu__li">Pentru parinti</Link>
                     <li className="menu__li">Opționale</li>
                 </ul>
             </div>

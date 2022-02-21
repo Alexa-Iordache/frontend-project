@@ -1,0 +1,39 @@
+.sponsors__main-container {
+    background-image: url("./images/food.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 700px;
+    padding-top: 10px;
+}
+/* html {
+    /* background: linear-gradient(to left top, rgb(218, 165, 32), rgb(248, 222, 126)); 
+    
+    background-image: url("./images/background.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+} */
+
+.sponsors__title {
+    color: rgb(242, 237, 245);
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.sponsors__buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.sponsors__photos {
+    margin-top: 20px;
+}
+
+.photo_pizza {
+    width: 600px;
+    height:450px;
+    opacity: 0.5;
+}

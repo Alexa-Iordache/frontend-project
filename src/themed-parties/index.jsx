@@ -19,7 +19,7 @@ function ThemedParties() {
             <Box sx={{ width: '100%'}}>
                 <AppBar position="static"
                     className="themed-parties__appbar"
-                    style={{ backgroundColor: "rgb(207, 174, 221)", display: "flex", flexFlow: "row", paddingLeft: 20 }}
+                    style={{ backgroundColor: "rgb(207, 174, 221)", display: "flex", flexFlow: "row", paddingLeft: 20}}
                 >
                     <Tabs
                         value={value}
@@ -28,9 +28,9 @@ function ThemedParties() {
                         indicatorColor="secondary"
                         aria-label="secondary tabs example"
                     >
-                        <Tab value={0} label="Craciun" className="themed-parties__tab"/>
+                        <Tab value={0} label="Craciun" className="themed-parties__tab" />
                         <Tab value={1} label="Halloween" className="themed-parties__tab"/>
-                        <Tab value={2} label="Item 3"className="themed-parties__tab" />
+                        <Tab value={2} label="Item 3"className="themed-parties__tab"/>
                     </Tabs>
                 </AppBar>
                 {value === 0 ? <Christmas/> : null}
