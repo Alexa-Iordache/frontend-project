@@ -26,27 +26,29 @@ import './home-page.css'
 import BtnSlider from './BtnSlider.js'
 import Menu from "../menu";
 import image1 from './images/children2.jpeg';
-import image2 from './images/birthday-cake.gif';
+import image2 from './images/bunny3.png';
 import image3 from './images/mickey.jpeg';
 import image4 from './images/playground.jpeg';
-import image5 from './images/bunny3.png';
+import image5 from './images/birthday-cake.gif';
 
 
 const itemData = [
     {
         id: 1,
         img: image1,
-        title: 'image1',
+        title: '',
     },
     {
         id: 2,
         img: image2,
-        title: 'image2',
+        title: 'Bine ai venit la Tup Tup House!',
     },
     {
         id: 3,
         img: image3,
-        title: 'image3',
+        title: 'Petreceri tematice',
+        title2: 'Costumatii personaje disney pt copii',
+        title3: 'Fotografie de grup'
     },
     {
         id: 4,
@@ -102,13 +104,19 @@ export default function Slider() {
                         <div
                             key={item.id}
                             className={slideIndex === index + 1 ? "slide active-anim" : "slide"}
+                            style={{ 'backgroundImage': `url(${item.img})`}}
                         >
-                            <img
-                                // src={process.env.PUBLIC_URL + `/photos/image${index + 1}.jpeg`} 
-                                // src={`/photos/image${index+1}.jpeg`}
+                            {slideIndex === 2 ? <span className='span2'>{item.title}</span> : null}
+                            {slideIndex === 3 ? <div className='span3'>
+                                <div id='little_div'>{item.title}</div>
+                                <div id='little_div'>{item.title2}</div>
+                                <div id='little_div'>{item.title3}</div>
+                                </div> : null}
+        
+                            {/* <img
                                 src={`${item.img}`}
                                 alt="img"
-                            />
+                            /> */}
                         </div>
                     )
                 })}
