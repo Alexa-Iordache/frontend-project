@@ -1,6 +1,6 @@
 import React from 'react';
 import { Route, Routes, Navigate } from 'react-router-dom';
-import Slider from './home-page';
+import HomePage from './home-page';
 import PromoPack from './promo-pack';
 import PartyGalery from './party-galery';
 import ThemedParties from './themed-parties';
@@ -14,7 +14,7 @@ class App extends React.Component {
     return (
       <div>
         <Routes>
-          <Route path="/home-page" element={<Slider/>} />
+          <Route path="/home-page" element={<HomePage/>} />
           <Route path="/promo-pack" element={<PromoPack/>} />
           <Route path="/party-galery" element={<PartyGalery/>} />
           <Route path="/themed-parties" element={<ThemedParties/>} />

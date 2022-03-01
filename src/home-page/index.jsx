@@ -1,68 +1,40 @@
-// import React from "react";
-// import "./home-page.css";
-// import { Link } from "react-router-dom";
-// import Menu from "../menu";
-
-
-// class HomePage extends React.Component {
-//     render() {
-//         return (
-//             <div className="home-page__main-container">
-//                 <Menu />
-//                 <div className="home-page__title">
-//                     <div>  Țup Țup </div>
-//                     <div className="ceva"> House </div>
-//                 </div>
-//                 <Link to='/promo-pack' className="home-page__promo-pack">Pachet Promotional</Link>
-//             </div>
-//         );
-//     }
-// }
-
-// export default HomePage;
-
 import React, { useState } from 'react'
 import './home-page.css'
 import BtnSlider from './BtnSlider.js'
 import Menu from "../menu";
-import image1 from './images/children2.jpeg';
-import image2 from './images/bunny3.png';
-import image3 from './images/mickey.jpeg';
-import image4 from './images/playground.jpeg';
-import image5 from './images/birthday-cake.gif';
+import { Link } from "react-router-dom";
+import image1 from './images/ALEXA.jpg';
+import image2 from './images/mickey.jpeg';
+import image3 from './images/playground.jpeg';
+import image4 from './images/birthday-cake.gif';
 
 
 const itemData = [
     {
         id: 1,
         img: image1,
-        title: '',
+        title: 'Bine ai venit la Tup Tup House!',
     },
     {
         id: 2,
         img: image2,
-        title: 'Bine ai venit la Tup Tup House!',
+        title: 'Petreceri tematice',
+        title2: 'Costumatii personaje Disney pt copii',
+        title3: 'Fotografie de grup'
     },
     {
         id: 3,
         img: image3,
-        title: 'Petreceri tematice',
-        title2: 'Costumatii personaje disney pt copii',
-        title3: 'Fotografie de grup'
+        title: '',
     },
     {
         id: 4,
         img: image4,
         title: 'image4',
     },
-    {
-        id: 5,
-        img: image5,
-        title: 'image5',
-    },
 ];
 
-export default function Slider() {
+export default function HomePage() {
 
     const [slideIndex, setSlideIndex] = useState(1)
 
@@ -86,10 +58,6 @@ export default function Slider() {
         }
     }
 
-    // const moveDot = index => {
-    //     setSlideIndex(index)
-    // }
-
     return (
         <div>
             <div>
@@ -106,8 +74,10 @@ export default function Slider() {
                             className={slideIndex === index + 1 ? "slide active-anim" : "slide"}
                             style={{ 'backgroundImage': `url(${item.img})`}}
                         >
-                            {slideIndex === 2 ? <span className='span2'>{item.title}</span> : null}
-                            {slideIndex === 3 ? <div className='span3'>
+                            {slideIndex === 1 ? <span className='span1'>
+                                    <Link to='/promo-pack' className="home-page__promo-pack">Pachet Promotional</Link>
+                                </span> : null}
+                            {slideIndex === 2 ? <div className='span2'>
                                 <div id='little_div'>{item.title}</div>
                                 <div id='little_div'>{item.title2}</div>
                                 <div id='little_div'>{item.title3}</div>
@@ -126,14 +96,6 @@ export default function Slider() {
                 <BtnSlider moveSlide={prevSlide} direction={"prev"} />
 
 
-                {/* <div className="container-dots">
-                {Array.from({length: 5}).map((item, index) => (
-                    <div 
-                    onClick={() => moveDot(index + 1)}
-                    className={slideIndex === index + 1 ? "dot active" : "dot"}
-                    ></div>
-                ))}
-            </div> */}
             </div>
         </div>
     )

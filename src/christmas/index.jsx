@@ -9,6 +9,8 @@ import image3 from "./images/image3.jpeg";
 import image4 from "./images/image4.jpeg";
 import image5 from "./images/image5.jpeg";
 import image6 from "./images/image6.jpeg";
+import image7 from "./images/image7.jpeg";
+import image8 from "./images/image8.jpeg";
 
 const itemData = [
     {
@@ -16,7 +18,7 @@ const itemData = [
         title: 'image1',
     },
     {
-        img: image2,
+        img: image4,
         title: 'image2',
     },
     {
@@ -24,7 +26,7 @@ const itemData = [
         title: 'image3',
     },
     {
-        img: image4,
+        img: image8,
         title: 'image4',
     },
     {
@@ -32,16 +34,24 @@ const itemData = [
         title: 'image5',
     },
     {
-        img: image6,
+        img: image7,
         title: 'image6',
+    },
+    {
+        img: image6,
+        title: 'image7',
+    },
+    {
+        img: image2,
+        title: 'image8',
     },
 ];
 class Christmas extends React.Component {
     render() {
         return (
             <div className="chirstmas__main-container">
-                <Box sx={{ width: 1000, height: 900, overflowY: 'scroll', paddingLeft: 30 }}>
-                    <ImageList variant="masonry" cols={4} gap={8}>
+                <Box sx={{ width: 1000, height: 900, overflowY: 'scroll', paddingLeft: 20 }}>
+                    <ImageList variant="masonry" cols={3} gap={8}>
                         {itemData.map((item) => (
                             <ImageListItem key={item.img}>
                                 <img

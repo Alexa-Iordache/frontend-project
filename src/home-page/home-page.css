@@ -65,17 +65,17 @@ html {
     display: grid;
   }
 
-  .span2 {
-    font-size: 30px;
-    color: rgba(105, 23, 143, 0.6);
+  .span1 {
+    font-size: 40px;
+    color: rgba(86, 7, 122, 0.925);
     text-align: center;
-    padding-top: 350px;
+    padding-top: 300px;
     font-weight: bolder;
   }
 
-  .span3 {
+  .span2 {
     font-size: 30px;
-    color: rgba(105, 23, 143, 0.6);
+    color: rgba(86, 7, 122, 0.925);
     font-weight: bolder;
     padding-left: 40px;
     margin-top: 40px;

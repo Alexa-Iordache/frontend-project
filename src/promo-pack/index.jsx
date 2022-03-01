@@ -23,10 +23,10 @@ class PromoPack extends React.Component {
                         <li>3 ORE SI JUMATATET acces in sala de petrecre</li>
                         <li>aranjarea si decorarea spatiului (farfurii, tacamuri, pahare colorate)</li>
                         <li>supraveghetor copii</li>
-                        <li>initatii online personalizate</li>
+                        <li>invitatii online personalizate</li>
                         <li>poze si filmuleț de la petrecere  - trimise pe whatsapp </li>
                         <li>Fotografie de grup </li>
-                        <li>acces la locul de joaca modular( tobogane, piscina bile colorate,trambulina)</li>
+                        <li>acces la locul de joaca modular( tobogane, piscina bile colorate, trambulina)</li>
                         <li>costumatii personaje disney pt copii ( la cerere-incluse în costul pachetului</li>
                         <li>poze panou - Elsa, Spiderman, Minionii ( la cerere- incluse în costul pachetului ) </li>
                         <li>cutia cu recuzita pt poze haioase( la cerere- inclusa în costul pachetului )</li>
