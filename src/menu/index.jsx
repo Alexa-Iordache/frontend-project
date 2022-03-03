@@ -7,15 +7,11 @@ class Menu extends React.Component {
         return (
             <div className="menu__main-container">
                 <ul>
-                    <li className="menu__li">Oferta</li>
+                    {/* <li className="menu__li">Oferta</li> */}
                     <Link to='/party-galery' id="first">Galerie Petreceri</Link>
                     <Link to='/themed-parties' className="menu__li">Petreceri tematice</Link>
-                    {/* <li className="menu__li">Galerie Petreceri</li> */}
-                    {/* <li className="menu__li">Petreceri tematice</li> */}
                     <li className="menu__li">Ateliere de creație</li>
                     <Link to="/sponsors" className="menu__li">Colaboratori</Link>
-                    {/* <li className="menu__li">Colaboratori</li> */}
-                    {/* <li className="menu__li">Pentru părinți</li> */}
                     <Link to="/parents" className="menu__li">Pentru parinti</Link>
                     <li className="menu__li">Opționale</li>
                 </ul>

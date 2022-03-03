@@ -1,6 +1,7 @@
 .background_color {
     height: 100%;
-    background: linear-gradient(to left top, rgb(218, 165, 32), rgb(248, 222, 126));
+    /* background: linear-gradient(to left top, rgb(218, 165, 32), rgb(248, 222, 126)); */
+    background: linear-gradient(to left top, rgb(248, 246, 241), rgb(240, 235, 218));
     padding-bottom: 50px;
     padding-top: 20px;
 }

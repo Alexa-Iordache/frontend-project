@@ -15,15 +15,38 @@
     margin-left: 90px;
 }
 
-.parents__title {
+.parents__ceva {
+    display: flex;
+    flex-direction: row;
+}
+
+.parents__li-title {
     color: rgb(106, 27, 139);
-    text-align: center;
-    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+.parents__li-info {
     padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;
 }
 
 li {
-    font-size: 20px;
-    font-weight: bold;
     color: rgb(106, 27, 139);
 }
+
+.parents__div-right {
+    margin-left: 150px;
+}
+
+.parents__div-left {
+    margin-left: 50px;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 30px;
+}
+
