@@ -28,6 +28,11 @@
     justify-content: center;
 }
 
+.sponsors__modal-title {
+    text-align: center;
+    font-weight: bold;
+}
+
 .sponsors__photos {
     margin-top: 20px;
 }
