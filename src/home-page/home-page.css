@@ -30,14 +30,6 @@ html {
     font-style: italic;
 }
 
-/*.home-page__promo-pack {
-    font-family: "Avant Garde", Times, serif;
-    font-size: 50px;
-    margin-top: 50px;
-    display: flex;
-    justify-content: center;
-} */
-
 .container-slider {
     max-width: 1200px;
     height: 500px;
@@ -131,22 +123,44 @@ html {
     transform: translateY(-60%);
   }
   
-  
-  /* .container-dots {
-    position: absolute;
-    bottom: 10px;
-    left: 50%;
-    transform: translateX(-50%);
+
+
+  .home-page__info-div {
+    background-color: black;
+    color: white;
+    padding: 20px;
     display: flex;
+    flex-direction: row;
   }
-  .dot {
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    border: 3px solid #f1f1f1;
-    margin: 0 5px;
-    background: #f1f1f1;
+
+  .info-div__info-div-title {
+    color: white;
+    font-weight: bold;
+    padding-bottom: 10px;
+    border-bottom: solid 2px gray;
+    width: 68px;
+    margin-left: 45px;
   }
-  .dot.active {
-    background: rgb(32, 32, 32);
-  } */
+
+  .info-div__info-div-title2 {
+    color: white;
+    font-weight: bold;
+    padding-bottom: 10px;
+    border-bottom: solid 2px gray;
+    width: 141px;
+    margin-left: 250px;
+  }
+
+  .home-page__info {
+    margin-top: 10px;
+    margin-left: 45px;
+  }
+
+  .home-page__info2 {
+    margin-top: 10px;
+    margin-left: 250px;
+  }
+
+  .home-page__span1 {
+    font-weight: bold;
+  }

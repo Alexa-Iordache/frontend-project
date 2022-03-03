@@ -4,7 +4,8 @@
 } */
 
 .themed-parties__main-container{
-    background:  linear-gradient(to left top, rgb(218, 165, 32), rgb(248, 222, 126));
+    /* background:  linear-gradient(to left top, rgb(218, 165, 32), rgb(248, 222, 126)); */
+    background: linear-gradient(to left top, rgb(248, 246, 241), rgb(240, 235, 218));
     padding-top: 10px;
     padding-bottom: 50px;
     display: flex;

@@ -20,7 +20,8 @@ import image14 from "./images/image14.jpeg";
 import image15 from "./images/image15.jpeg";
 import image16 from "./images/image16.jpeg";
 import image17 from "./images/image17.jpeg";
-
+import image18 from "./images/image18.jpeg";
+import image19 from "./images/image19.jpeg";
 
 
 const itemData = [
@@ -37,8 +38,12 @@ const itemData = [
         title: 'image3',
     },
     {
-        img: image4,
+        img: image9,
         title: 'image4',
+    },
+    {
+        img: image10,
+        title: 'image9',
     },
     {
         img: image5,
@@ -57,11 +62,7 @@ const itemData = [
         title: 'image8',
     },
     {
-        img: image9,
-        title: 'image9',
-    },
-    {
-        img: image10,
+        img: image4,
         title: 'image10',
     },
     {
@@ -91,6 +92,14 @@ const itemData = [
     {
         img: image17,
         title: 'image17',
+    },
+    {
+        img: image18,
+        title: 'image18',
+    },
+    {
+        img: image19,
+        title: 'image19',
     },
 ];
 class PartyGalery extends React.Component {
