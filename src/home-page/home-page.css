@@ -1,11 +1,7 @@
-html {
-    background: linear-gradient(to left top, rgb(248, 246, 241), rgb(240, 235, 218));
-    
-    /* background-image: url("./images/background.jpeg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed; */
+.home-page__main-container{
+  background: linear-gradient(to left top, rgb(248, 246, 241), rgb(240, 235, 218));
 }
+
 .home-page__title {
     font-family: "Avant Garde", Times, serif;
     font-size: 60px;

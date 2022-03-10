@@ -63,8 +63,12 @@ export default function HomePage() {
         }
     }
 
+    // useEffect(() => {
+    //     document.body.style.background = "red";
+    //   });
+
     return (
-        <div>
+        <div className='home-page__main-container'>
             <div>
                 <Menu />
             </div>

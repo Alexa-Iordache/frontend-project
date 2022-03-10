@@ -1,23 +1,47 @@
-.parents__main-container {
+/* body, html {
+    height: 100%;
+    margin: 0;
+} */
+/* .parents__main-container {
     background-image: url("./images/orange-purple.jpeg");
+    background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    height: 700px;
-    padding-top: 10px;
-}
+    background-repeat: no-repeat; */
+    /* background-attachment: fixed; */
+    /* height: 700px; */
+    /* min-height: 100%;
+    min-width: 100%; */
+    /* padding-top: 10px; */
+/* }  */
+
+/* perfect full page background image */
+html { 
+    background: url("./images/orange-purple.jpeg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
 
 .parents__second-container {
     background-color: rgb(247, 244, 234);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     width: 1100px;
-    height: 530px;
+    /*height: 530px;
     margin: 55px;
-    margin-left: 90px;
+    margin-left: 90px; */
 }
 
 .parents__ceva {
     display: flex;
     flex-direction: row;
+    padding-bottom: 10px;
+}
+.parents__title {
+    padding-bottom: 0px;
 }
 
 .parents__li-title {
@@ -33,12 +57,21 @@
     color: black;
 }
 
+.parents__li-info-parents {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;
+    text-align: center;
+}
+
+
 li {
     color: rgb(106, 27, 139);
 }
 
 .parents__div-right {
-    margin-left: 150px;
+    margin-left: 100px;
+    margin-top: 50px;
 }
 
 .parents__div-left {
@@ -48,5 +81,22 @@ li {
 h1 {
     text-align: center;
     padding-top: 30px;
+}
+
+.span-arrow {
+    padding-left: 20px;
+}
+
+.span-button {
+    padding-left: 20px;
+    font-weight: bolder;
+    border: 0px;
+    background-color: rgb(247, 244, 234);
+    font-size: large;
+}
+
+.box-title {
+    text-align: center;
+    font-weight: bold;
 }
 

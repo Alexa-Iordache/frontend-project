@@ -84,8 +84,6 @@ const itemData = [
         img: image7,
         title: 'image7',
     },
-    
-
 ];
 class Halloween extends React.Component {
     render() {
